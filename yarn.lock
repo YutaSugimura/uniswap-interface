@@ -5194,10 +5194,10 @@
     "@uniswap/v3-core" "1.0.0"
     "@uniswap/v3-periphery" "^1.0.1"
 
-"@uniswap/widgets@^2.26.0":
-  version "2.26.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/widgets/-/widgets-2.26.0.tgz#ed2d2b0965fc2139874a5eaca44c8070184d9e74"
-  integrity sha512-LIfd3wgJxNiPXduyxXAihOzye5LrayyPDt0/OErSr1hF3BIiQqdVc3KyHDFJ4PC0pCp4+dfE2HPH1FrClO54Uw==
+"@uniswap/widgets@^2.28.0":
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/@uniswap/widgets/-/widgets-2.28.0.tgz#d9ce2222b8d9f1d789a488b9aa3a0a230fe84f8d"
+  integrity sha512-CYbbEEKWoKBpB6ANxyZxo4z7Dxn1OEndVe5nWUarluYmAIt97ilLqcrxpucTg/Tp2hbR8dVi8eIrUU7H2ptoWQ==
   dependencies:
     "@babel/runtime" ">=7.17.0"
     "@fontsource/ibm-plex-mono" "^4.5.1"
@@ -5215,13 +5215,13 @@
     "@uniswap/v2-sdk" "^3.0.1"
     "@uniswap/v3-sdk" "^3.8.2"
     "@web3-react/core" "8.0.35-beta.0"
-    "@web3-react/eip1193" "8.0.26-beta.0"
+    "@web3-react/eip1193" "8.0.27-beta.0"
     "@web3-react/empty" "8.0.20-beta.0"
-    "@web3-react/metamask" "8.0.28-beta.0"
+    "@web3-react/metamask" "8.0.30-beta.0"
     "@web3-react/network" "8.0.27-beta.0"
     "@web3-react/types" "8.0.20-beta.0"
     "@web3-react/url" "8.0.25-beta.0"
-    "@web3-react/walletconnect" "8.0.36-beta.0"
+    "@web3-react/walletconnect" "8.0.37-beta.0"
     ajv "^8.11.0"
     ajv-formats "^2.1.1"
     cids "^1.0.0"
@@ -5768,6 +5768,13 @@
   dependencies:
     "@web3-react/types" "^8.0.20-beta.0"
 
+"@web3-react/eip1193@8.0.27-beta.0":
+  version "8.0.27-beta.0"
+  resolved "https://registry.yarnpkg.com/@web3-react/eip1193/-/eip1193-8.0.27-beta.0.tgz#b768fc3ae6e234627e6a8ecd4d5c473c371a816b"
+  integrity sha512-8aca1NDP+qigh/LOxSiC5N44qvVo1z5V7QI4T5iUpNrzbXEXV3G2JXutoW5fNEm+oK5fkHK64p9eZ6lo0qyMbQ==
+  dependencies:
+    "@web3-react/types" "^8.0.20-beta.0"
+
 "@web3-react/empty@8.0.20-beta.0":
   version "8.0.20-beta.0"
   resolved "https://registry.yarnpkg.com/@web3-react/empty/-/empty-8.0.20-beta.0.tgz#f8e2a6414ba49c7da3937776c213eb4c8ff6e2c7"
@@ -5784,18 +5791,18 @@
     "@gnosis.pm/safe-apps-sdk" "^7.6.0"
     "@web3-react/types" "^8.0.20-beta.0"
 
-"@web3-react/metamask@8.0.28-beta.0":
-  version "8.0.28-beta.0"
-  resolved "https://registry.yarnpkg.com/@web3-react/metamask/-/metamask-8.0.28-beta.0.tgz#f7e9e0de446727a961745cbec75c8cbf6c961388"
-  integrity sha512-IXuVyj6vhRAhfGQ/sN4qgET8EEdqX844pB4kCDG9kjPD3LLm5kq47ykBosgTr9YCUtdHAXN0UaUimD0TbLMRFg==
-  dependencies:
-    "@metamask/detect-provider" "^1.2.0"
-    "@web3-react/types" "^8.0.20-beta.0"
-
 "@web3-react/metamask@8.0.29-beta.0":
   version "8.0.29-beta.0"
   resolved "https://registry.yarnpkg.com/@web3-react/metamask/-/metamask-8.0.29-beta.0.tgz#536536b8d4f22f21d3e109efaa8149939833f21b"
   integrity sha512-UPaVmNum6cJ/CwW5WYFMrm6GwiuY1hnuCYB+bV1Bs0xghdag2Laj8/mSfpFCsCHcvg1ZWTcr4bH+WyuYAHgUxw==
+  dependencies:
+    "@metamask/detect-provider" "^1.2.0"
+    "@web3-react/types" "^8.0.20-beta.0"
+
+"@web3-react/metamask@8.0.30-beta.0":
+  version "8.0.30-beta.0"
+  resolved "https://registry.yarnpkg.com/@web3-react/metamask/-/metamask-8.0.30-beta.0.tgz#afab5d7cf556e3ec77836ff2b4753f6f301cfbeb"
+  integrity sha512-SzL8/RUmLHEQCdd6KNjEIHXwuYiQrKX5e1Bgipvtm8MKBRk1ty17Aj7MKWNRcl/Qt06pLSxbcEJeT9kPIrc0mg==
   dependencies:
     "@metamask/detect-provider" "^1.2.0"
     "@web3-react/types" "^8.0.20-beta.0"
@@ -5836,6 +5843,14 @@
   version "8.0.36-beta.0"
   resolved "https://registry.yarnpkg.com/@web3-react/walletconnect/-/walletconnect-8.0.36-beta.0.tgz#a0dbb5286b9011c6c221cc143322822a7387978f"
   integrity sha512-u+yNWCm8nz5pZn8SyU5+9pI5hakKcfhUF1TYwj7HVTTMHdMlLXhk19YyaycsFkgbX9zWzouItwxXF8obGt+rCg==
+  dependencies:
+    "@web3-react/types" "^8.0.20-beta.0"
+    eventemitter3 "^4.0.7"
+
+"@web3-react/walletconnect@8.0.37-beta.0":
+  version "8.0.37-beta.0"
+  resolved "https://registry.yarnpkg.com/@web3-react/walletconnect/-/walletconnect-8.0.37-beta.0.tgz#d375dc75f34e9bb225d26a88b16aa2a001b4e3bc"
+  integrity sha512-BW8tKE0dlFWSLBC/AWKULZbS1axToN7kMREKVY3YK1uj8bMRsoWcOQPceQl21WuEyVXax2V8My8SJgWuxcumvw==
   dependencies:
     "@web3-react/types" "^8.0.20-beta.0"
     eventemitter3 "^4.0.7"
